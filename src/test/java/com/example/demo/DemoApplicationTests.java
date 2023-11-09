@@ -1,10 +1,10 @@
-package com.example.redhathackathon;
+package com.example.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RedhatHackathonApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {
