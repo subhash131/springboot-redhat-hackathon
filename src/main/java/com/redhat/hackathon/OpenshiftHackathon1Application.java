@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class OpenshiftHackathon1Application {
 	
 	@GetMapping("/")
-	public String testConnection() {
-		return "Hello, Im Alive";
+	public String getMessage() {
+		return "Hi, Im Alive";
 	}
 
 	public static void main(String[] args) {
